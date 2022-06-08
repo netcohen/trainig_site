@@ -16,8 +16,8 @@ function load() {
     const year = dt.getFullYear();
 
     const daysInMonth = new Date(year, month +1, 0).getDate();
-
-    console.log(daysInMonth)
+const firstDayOfTheMonth = new Date(year, month, day)
+    console.log(firstDayOfTheMonth)
 
 };
 
