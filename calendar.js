@@ -3,7 +3,7 @@ const weekDays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','S
 
 let nav = 0;
 let clicked = null;
-let events = localStorage.getElementById('events') ? JSON.parse(localStorage.getElementById('events')) : [];
+let events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : [];
 
 
 
