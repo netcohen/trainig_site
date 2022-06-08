@@ -11,7 +11,7 @@ function load() {
 
     const dt = new Date();
 
-    const day = td.getDate();
+    const day = dt.getDate();
     const month = dt.getMonth();
     const year = dt.getFullYear();
 
