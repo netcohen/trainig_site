@@ -18,21 +18,39 @@
 <hr>
 
 <!--מבנה עמוד-->
-<table id="mainPage">
+
 <!--לוח שנה-->
-<td>
-    <h1>לוח שנה</h1>
-    <div id="calendar">        
+
+<div id="container">
+    <div id="header">
+      <div id="monthDisplay"></div>
+      <div>
+        <button id="backButton">Back</button>
+        <button id="nextButton">Next</button>
+      </div>
     </div>
-</td>
+
+    <div id="weekdays">
+      <div>Sunday</div>
+      <div>Monday</div>
+      <div>Tuesday</div>
+      <div>Wednesday</div>
+      <div>Thursday</div>
+      <div>Friday</div>
+      <div>Saturday</div>
+    </div>
+
+    <div id="calendar"></div>
+  </div>
+
 <!--צ'ט-->
-<td>
+
     <div id="chat">
         <h1>chat</h1>
     </div>
-</td>
 
-</table>
+
+
 <script src="calendar.js"></script>
 </body>
 </html>

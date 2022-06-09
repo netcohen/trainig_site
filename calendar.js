@@ -1,6 +1,7 @@
 const Calendar = document.getElementById("calendar");
 const weekDays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
+
 let nav = 0;
 let clicked = null;
 let events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : [];
@@ -24,7 +25,8 @@ const dateString = firstDayOfTheMonth.toLocaleDateString('en-us', {
     year: 'numeric',
 });
 
-const paddingDays = weekDays.indexOf(dateString.split(', ')[0]);    
+const paddingDays = weekDays.indexOf(dateString.split(', ')[0]);   
+document.getElementById('monthDisplay').innerText = `${dt.toLocaleDateString('en-us', { month: 'long' })} ${year}`;
 
 for (let i=1; i<=paddingDays+daysInMonth; i++) {
     const daySquare = document.createElement('div');
