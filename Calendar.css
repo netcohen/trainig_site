@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
   }
   #header button {
-    background-color:#92a1d1;
+    background-color:rgba(233, 36, 36, 0.8);
   }
   #container {
     width: 770px;
@@ -123,3 +123,4 @@ body {
     position: absolute;
     background-color: rgba(0,0,0,0.8);
   }
+
