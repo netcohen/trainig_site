@@ -1,0 +1,25 @@
+{
+  "name": "calender_react",
+  "version": "1.0.0",
+  "description": "calender_widget",
+  "main": "calendar.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netcohen/trainig_site.git"
+  },
+  "author": "CohenStudioConvert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/netcohen/trainig_site/issues"
+  },
+  "homepage": "https://github.com/netcohen/trainig_site#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "snowpack": "^3.8.8"
+  }
+}
